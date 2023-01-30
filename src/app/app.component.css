@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 5%;
+}
+
+.input-container{
+    margin-top: 7%;
+   text-align: center;
+}
+
+.input-container > .memo{
+    width: 400px;
+    padding: 10px;
+    border: 5px solid #6A82FB;
+    color: #6A82FB;
+}
+
+.input-container > .btn{
+    width: 70px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border: 5px solid #6A82FB;
+    color: #6A82FB;
+}
+
+.notepad-container{
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-inline: 30%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 5px solid #3ac8f8;
+    background-color: white;
+    color: #3ac8f8;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.deleteBtn{
+    border: none;
+    background-color: white;
+    color: red;
+}
+
+#app{
+    background: #2d3d8f;
+    height: 100vh;
+}
